@@ -698,16 +698,14 @@ border-bottom: 5px solid #333333;
 
 .contact {
   height: 300px;
-  min-height:450px;
   background: #ffffff;
 }
 
 .contact .header {
-    padding: 200px;
-    padding-top: 160px;
+    padding: 100px;
     display: block;
     font-family: "Product Sans", "Helvetica Neue", sans-serif;
-    font-size: 69px;
+    font-size: 71px;
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 85px;
@@ -764,8 +762,9 @@ blockquote {
 }
 
 .carousel_main, img {
-    height: 50%;
-    width: 50%;
+    height: 55%;
+    width: 55%;
+    padding-top: 50px;
 }
 
 
