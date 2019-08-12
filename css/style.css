@@ -24,7 +24,7 @@ h6 {
   color: #001418;
   margin: 0;
   font-weight: 600;
-  font-family: 'Product Sans', sans-serif;
+  font-family: 'Google Sans', sans-serif;
 }
 
 p {
@@ -117,6 +117,7 @@ ol {
   font-size: 58px;
     margin-top: -30px;
     padding: 20px;
+    font-family: 'Google sans';
 }
 
 .section-title span {
@@ -193,18 +194,41 @@ ol {
 /*=== Buttons ===*/
 .site-btn {
   display: inline-block;
-  font-size: 14px;
-  min-width: 140px;
+  font-size: 15px;
+  min-width: 100px;
   text-align: center;
-  padding: 15px 10px;
+  padding: 10px 12px;
   position: relative;
+text-decoration: none;
   color: #fff;
   border: none;
-  background-color: #979797;
+  background-color: #cccdce;
   margin-right: 15px;
   z-index: 1;
     border-radius: 100px;
+    font-family: Roboto;
 }
+
+.site-btn2 {
+  display: inline-block;
+  font-size: 15px;
+  min-width: 70px;
+  text-align: center;
+  padding: 10px 12px;
+  position: relative;
+text-decoration: none;
+  color: #fff;
+  border: none;
+  background-color: #cccdce;
+  margin-right: 15px;
+  z-index: 1;
+    border-radius: 100px;
+    font-family: Roboto;
+}
+
+
+
+
 
 .site-btn.btn-fade {
   background-color: #979797;
@@ -219,6 +243,7 @@ ol {
 
 .site-btn.btn-line:hover {
   color: #000;
+
 }
 
 .site-btn.btn-line-fade {
@@ -230,10 +255,21 @@ ol {
 
 .site-btn.btn-line-fade:hover {
   color: #979797;
+
 }
 
 .site-btn:hover {
   color: #fff;
+    background: #979797;
+  text-decoration: none;
+
+}
+
+.site-btn2:hover {
+  color: #fff;
+    background: #979797;
+  text-decoration: none;
+
 }
 
 /*===  Accordion  ===*/
@@ -400,9 +436,28 @@ ol {
   position: relative;
 }
 
+.contact-menu {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+
 .site-logo {
   font-size: 24px;
-  padding-top: 20px;
+  margin: auto;
+    padding-left: 18px;
+  font-family: Roboto;
+  font-size: 15px; 
+  width: 10%; 
+}
+
+
+.site-logo:hover {
+  color: #fff;
+    background: #ff7f88;
+  text-decoration: none;
 }
 
 
@@ -465,7 +520,7 @@ border-bottom: 5px solid #333333;
     Intro Section
 --------------------------*/
 .intro-section {
-  padding: 110px 0;
+  padding: 60px 0;
 }
 
 /*------------------------
@@ -697,8 +752,9 @@ border-bottom: 5px solid #333333;
 --------------------------*/
 
 .contact {
-  height: 300px;
+  height: auto;
   background: #ffffff;
+
 }
 
 .contact .header {
@@ -710,6 +766,7 @@ border-bottom: 5px solid #333333;
     letter-spacing: -1px;
     line-height: 85px;
     text-align: left;
+
 }
 
 /* blockquote */
@@ -737,19 +794,23 @@ blockquote {
   float: left !important;
 }
 
-.carousel_main .hr {
+.hr {
   box-sizing: content-box;
   height: 0;
 }
 
 
-.carousel_main .underline {
+.underline {
   border: 2px;
   border-bottom-style: solid;
   border-bottom-color: #546de5;
   width: 40px;
   margin-left: 107px;
   padding: 0;
+}
+
+.work-image {
+    width: 80%;
 }
 
 .carousel_main, h4 {
@@ -769,6 +830,42 @@ blockquote {
 
 
 }
+
+
+
+
+/* ===========================
+  Project details
+==============================*/
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  /* border: 1px solid lightblue; */
+  align: left;
+  float: left;
+  height: 350px;
+  width: 570px;
+  margin: 40px 0px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.project-details {
+  transition: all 0.8s ease;
+  flex-grow: 1;
+}
+
+.project-details:hover {
+  box-shadow: 0 10px 20px #c7cad1;
+  -webkit-transform: translate(10, -5px);
+  transform: translate(10, -5px);
+}
+
+
+
 
 
 /* ===========================
