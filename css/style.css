@@ -65,9 +65,8 @@ ol {
   Intro slogan
 --------------------------*/
 .intro-slogan {
-    margin-left: 0px;
+    padding-top: 30px;
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-align: left;
     font-size: 29px;
     font-weight: 300;
     height: 70px;
@@ -76,7 +75,6 @@ ol {
 
 
 blockquote {
-    border-left: 5px solid #546de5;
     margin-top: 40px;
     margin-right: 0px;
     margin-bottom: 20px;
@@ -134,11 +132,38 @@ blockquote::before {
 }
 
 .section-title {
-    padding-top: 30px;
-    font-family: 'Google sans';
-    text-align:left; 
-    font-size: 70px;
-    color: #333333;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Product Sans', sans-serif;
+    color: #3c4043;
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+
+.section-title-2 {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    font-family: 'Product Sans', sans-serif;
+    color: #3c4043;
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+
+
+.heading {
+    display: block;
+    margin: 0px auto 40px;
+    font-family: 'Product Sans', sans-serif;
+    color: #979797;
+    font-weight: 400;
 }
 
 
@@ -1096,13 +1121,12 @@ padding-left: 100px;
     top: 30px;
     padding-top: 15px;
     display: none;
-      text-transform: uppercase;
   }
+    
   .main-menu ul li a {
     padding: 10px 15px;
     border-bottom: 5px solid #000000;
     display: block;
-      text-transform: uppercase;
   }
   .main-menu ul li {
     display: block;
