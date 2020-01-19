@@ -188,7 +188,7 @@ a {
     font-family: 'Product Sans', sans-serif;
     color: #3c4043;
     font-size: 64px;
-    line-height: 76px;
+    line-height: 40px;
     font-weight: 600;
     letter-spacing: -0.6px;
 }
@@ -203,7 +203,7 @@ a {
     color: #3c4043;
     font-size: 64px;
     line-height: 76px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: -0.6px;
 }
 
@@ -229,8 +229,8 @@ a {
 
 
 #contact-btn:hover {
-    border-radius: 4px !important;
-    background: #fff7e6;
+    border-radius: 6px !important;
+    background: #F5F5F5;
     border-color: #ffffff !important;
 }
 
