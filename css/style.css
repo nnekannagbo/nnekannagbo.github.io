@@ -230,7 +230,7 @@ a {
 
 #contact-btn:hover {
     border-radius: 6px !important;
-    background: #F5F5F5;
+    background: #F8F8F8;
     border-color: #ffffff !important;
 }
 
@@ -251,6 +251,13 @@ a {
     font-family: 'Product Sans', sans-serif;
     color: #979797;
     font-weight: 400;
+    padding-left: 15px;
+}
+
+
+.work-heading {
+    display: block;
+    margin: 0px auto 40px;
     padding-left: 15px;
 }
 
@@ -282,7 +289,7 @@ a {
   .contact-section-title-2 {
     width: 100%;
     font-size: 30px;
-    line-height: 33px;
+    line-height: 50px;
     letter-spacing: -0.3px;
   }
 }
