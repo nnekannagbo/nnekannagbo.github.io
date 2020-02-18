@@ -26,6 +26,19 @@ a {
   a:hover {
     text-decoration: none; }
 
+h5 {
+    line-height: 29px;
+}
+h5 a {
+    /* color: #28a745; */
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    line-height: 29px;
+    padding: 0px;
+}
+
+
 .text-black {
   color: #000 !important; }
 
@@ -160,9 +173,6 @@ a {
 
 
 
-
-
-
 /*=== Section Header ===*/
 
 .section-title {
@@ -188,7 +198,7 @@ a {
     font-family: 'Product Sans', sans-serif;
     color: #3c4043;
     font-size: 64px;
-    line-height: 40px;
+    line-height: 55px;
     font-weight: 600;
     letter-spacing: -0.6px;
 }
@@ -230,11 +240,11 @@ a {
 
 #contact-btn:hover {
     border-radius: 6px !important;
-    background: #F8F8F8;
+    background: #e6f7ff;
     border-color: #ffffff !important;
 }
 
-#e6f7ff
+
 
 
 #contact-btn-2:hover {
@@ -286,22 +296,24 @@ a {
 
 
 @media screen and (max-width: 768px) {
-  .contact-section-title-2 {
+  .contact-section-title {
     width: 100%;
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 34px;
     letter-spacing: -0.3px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .contact-section-title {
+  .contact-section-title-2 {
     width: 100%;
-    font-size: 30px;
-    line-height: 33px;
+    font-size: 40px;
+    line-height: 58px;
     letter-spacing: -0.3px;
   }
 }
+
+
 
 
 
@@ -536,6 +548,7 @@ a {
   text-decoration: underline;
 }
  
+
 
 
 
