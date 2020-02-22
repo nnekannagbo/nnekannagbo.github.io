@@ -819,7 +819,7 @@ h5 a {
       background: rgba(0, 0, 0, 0.4); }
   .site-blocks-cover, .site-blocks-cover > .container > .row {
     min-height: 600px;
-    height: calc(100vh); }
+    height: calc(110vh); }
   .site-blocks-cover.inner-page, .site-blocks-cover.inner-page > .container > .row {
     min-height: 400px;
     height: calc(30vh); }
