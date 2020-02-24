@@ -275,7 +275,7 @@ h5 a {
 @media screen and (max-width: 768px) {
   .heading {
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     margin: 0px auto 40px;
 
   }
@@ -298,8 +298,8 @@ h5 a {
 @media screen and (max-width: 768px) {
   .contact-section-title {
     width: 100%;
-    font-size: 40px;
-    line-height: 34px;
+    font-size: 33px;
+    line-height: 24px;
     letter-spacing: -0.3px;
   }
 }
@@ -307,13 +307,18 @@ h5 a {
 @media screen and (max-width: 768px) {
   .contact-section-title-2 {
     width: 100%;
-    font-size: 40px;
-    line-height: 58px;
+    font-size: 33px;
+    line-height: 24px;
     letter-spacing: -0.3px;
   }
 }
 
 
+@media screen and (max-width: 768px) {
+    .small {
+        line-height: 31px;
+    }
+}
 
 
 
@@ -819,7 +824,7 @@ h5 a {
       background: rgba(0, 0, 0, 0.4); }
   .site-blocks-cover, .site-blocks-cover > .container > .row {
     min-height: 600px;
-    height: calc(110vh); }
+    height: calc(50vh); }
   .site-blocks-cover.inner-page, .site-blocks-cover.inner-page > .container > .row {
     min-height: 400px;
     height: calc(30vh); }
