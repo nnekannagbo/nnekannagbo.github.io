@@ -315,6 +315,15 @@ h5 a {
   }
 }
 
+@media screen and (max-width: 768px) {
+    .contact-section-title a {
+    color: #3c4043;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: #3c4043;
+}
+}
+
 
 @media screen and (max-width: 768px) {
     .small {
