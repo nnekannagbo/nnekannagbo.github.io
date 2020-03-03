@@ -482,6 +482,22 @@ h5 a {
 }
 
 
+.menu-buttons-wrk {
+    padding: 15px;
+    padding-left: 8px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+    .menu-buttons-wrk {
+    padding: 15px;
+    padding-left: 8px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+}
+
+
 .menu-buttons a {
     padding: 15px;
     display: inline-block;
