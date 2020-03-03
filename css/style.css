@@ -116,6 +116,23 @@ h5 a {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
+.site-section-twitter {
+    padding: 2em 0;
+    padding-top: 2em;
+    padding-right: 0px;
+    padding-bottom: 2em;
+    padding-left: 0px;
+}
+
+
+@media (max-width: 768px) {
+    .site-section-twitter {
+      padding-top: 20em; 
+    padding-right: 0px;
+    padding-bottom: 2em;
+    padding-left: 0px; } }
+
+
 .site-section {
   padding: 2em 0; }
   @media (min-width: 768px) {
