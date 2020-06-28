@@ -4075,7 +4075,6 @@ element.style {
   line-height: inherit;
   white-space: nowrap;
     font-family: 'Google sans';
-    letter-spacing: -0.03em;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
