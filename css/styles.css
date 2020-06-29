@@ -4071,10 +4071,10 @@ element.style {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 24px;
   line-height: inherit;
   white-space: nowrap;
     font-family: 'Google sans';
+    font-weight: 300;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4086,6 +4086,8 @@ element.style {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+    font-family: 'Inter';
+    font-weight: 363;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -10443,7 +10445,7 @@ h3 {
 }
 
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 4rem;
     font-family: 'Circular Std';
 }
