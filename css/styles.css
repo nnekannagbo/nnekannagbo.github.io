@@ -10446,14 +10446,14 @@ h3 {
 
 .portfolio-modal .portfolio-modal-title {
   font-size: 2rem;
-  line-height: 2.3rem;
+  line-height: 2rem;
     font-family: 'Circular Std';
 }
 
 @media (max-width: 400px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 2rem;
-    line-height: 2.3rem;
+    line-height: 2rem;
   }
 }
 .portfolio-modal .close {
