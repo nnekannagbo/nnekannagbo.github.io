@@ -10448,12 +10448,14 @@ h3 {
   font-size: 2rem;
   line-height: 2rem;
     font-family: 'Circular Std';
+    font-weight: 400;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 2rem;
     line-height: 2rem;
+      font-weight: 400;
   }
 }
 .portfolio-modal .close {
