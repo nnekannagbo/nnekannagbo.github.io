@@ -6187,7 +6187,7 @@ a.close.disabled {
 }
 
 .bg-primary-header {
-  background-color: #eff5fd !important;
+  background-color: #F2F7F9 !important;
 }
 
 .bg-primary-about {
@@ -10251,8 +10251,8 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(8rem + 74px);
-    padding-bottom: 10rem;
+    padding-top: calc(7rem + 74px);
+    padding-bottom: 7rem;
 
   }
  
@@ -10264,8 +10264,8 @@ h3 {
   }
     
     .masthead .masthead-heading {
-  font-size: 4.5rem;
-  line-height: 4.4rem;
+  font-size: 5rem;
+  line-height: 4.7rem;
     color: #000;
     font-family: 'Circular Std';
     font-weight: 500;
