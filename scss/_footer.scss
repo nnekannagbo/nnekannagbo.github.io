@@ -1,0 +1,33 @@
+footer {
+  padding: 203px 0px;
+}
+.footer-links {
+  max-width: 70%;
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
+  a {
+    color: #a4a7ab;
+    margin: 5px 0px;
+    padding: 0px 20px;
+    font-weight: 400;
+    transition: color 0.3s linear;
+    &:hover {
+      color: black;
+    }
+  }
+}
+@media screen and (max-width: 1500px) {
+  footer {
+    padding: 100px 0px;
+  }
+  .footer-links {
+    max-width: 90%;
+    a {
+      font-size: 16px;
+    }
+  }
+}
