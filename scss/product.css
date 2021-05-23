@@ -10985,7 +10985,7 @@ a.blue-link:not(.arrow-link):hover {
   left: 0px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2100px) {
   .desktop-nav {
     height: 80px;
   }
@@ -11219,7 +11219,7 @@ body {
   border-radius: 20px;
 }
 
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: 2100px) {
   .content-container {
     max-width: 1250px;
   }

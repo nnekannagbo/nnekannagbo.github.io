@@ -178,11 +178,6 @@ a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
 
-.isDisabled {
-  cursor: not-allowed;
-  text-decoration: none;
-}
-
 pre,
 code,
 kbd,
@@ -10990,7 +10985,7 @@ a.blue-link:not(.arrow-link):hover {
   left: 0px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2100px) {
   .desktop-nav {
     height: 80px;
   }
@@ -11215,7 +11210,7 @@ a.work .work-info p {
   color: #292b2c;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2100px) {
   .selected-work h2,
   .project-playground h2 {
     font-size: 24px;
