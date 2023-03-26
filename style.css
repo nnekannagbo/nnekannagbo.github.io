@@ -100,7 +100,8 @@ a:visited {
 
 .badge-primary {
     color: #fff;
-    background-image: linear-gradient(to right, #23a6d5, rgb(76, 175, 76));
+    background-color: blue;
+    /* background-image: linear-gradient(to right, #23a6d5, rgb(76, 175, 76)); */
     /* background-color: #007bff; */
 }
 
