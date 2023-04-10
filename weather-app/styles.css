@@ -1,0 +1,161 @@
+/* .content {
+  max-width: 500px;
+  margin: auto;
+} */
+
+/* GLOBAL STYLES */
+.container {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3; */
+    /* overflow: scroll; */
+    /* width: 100%; */
+    border: blue dotted 3px;
+    border-radius: 10px;
+    padding: 50px;
+  min-height: 90%;
+  margin-top: 100px;
+  transition-property: border-color;
+  transition-duration: 3s;
+  /* transition-delay: 1s; */
+  transition-timing-function: ease-in-out;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0 auto;
+  /* max-width: 500px; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: aliceblue;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #FFFDE4, #005AA7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  /* background: #2980B9; 
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); */
+  transition-property: background-color;
+  transition-duration: 3s;
+  /* transition-delay: 1s; */
+  transition-timing-function: ease-in-out;
+  /* transition: opacity 0.5s;
+  opacity: 5; */
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* .bg-transition {
+  background: #005AA7;
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7); 
+  background: linear-gradient(to right, #FFFDE4, #005AA7); 
+} */
+
+h1 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration-style: dotted;
+}
+a:hover {
+  /* background: lightgoldenrodyellow; */
+  background: -webkit-linear-gradient(blue, #41deaf, rgb(251, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a:visited {
+  color: blue;
+}
+
+h1 a:hover {
+  /* background: #adff2f; */
+  background: -webkit-linear-gradient(blue, #19be8d, rgb(251, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p::selection {
+  color: blue;
+  background-color:greenyellow;
+}
+label::selection {
+  color: blue;
+  background-color:greenyellow;
+}
+h1::selection {
+  color: blue;
+  background-color:greenyellow;
+}
+
+a::selection {
+  color: blue;
+  background-color:greenyellow;
+}
+
+/* MAIN - FORM */
+
+input {
+  width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px grey solid;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+input[type="text"]
+{
+  font-family: 'IBM Plex Mono', monospace;  
+  color: blue;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:grey;
+  opacity: 2; /* Firefox */
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: grey;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: grey;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: white;
+  border: 2px solid grey;
+  color: grey;
+}
+
+button:hover {
+  background: aliceblue;
+  cursor: pointer;
+  color: blue;
+  border-color: blue;
+}
+
+/* MAIN - FOOTER */
+
+footer {
+  text-align: center;
+  color: blue;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Include the stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>weather mo((o))od</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- add Jquery tag here, above the js script referer -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </head>
+  <body class="body-bg">
+    <div class="container">
+    <header>
+      <h1><a href="index.html">weather mo((o))od</a></h1>
+    </header>
+    <main>
+      <form>
+        <label for="city">> how does the weather <a href="">feel</a> today?</label><br><br><!--make it so the link for feel only shows up after the button is clicked and the weather results show up - so it'll be different every time - it'll point to a nature drone video & drone sound poetry -->
+        <input id="city" type="text" name="search-term" placeholder="enter city name" />
+        <button type="submit">submit</button>
+      </form> 
+      <p id="weather-data"></p>
+      <p id="main"></p>
+      <p id="wind"></p>
+      <p id="weather"></p>
+    </main>
+     </div>
+     <footer>
+      <p>Weather data provided by <a href="https://home.openweathermap.org/" target="_blank">Open Weather Map</a></p>
+    </footer>
+  </body>
+</html>
