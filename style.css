@@ -105,6 +105,13 @@ a:visited {
     /* background-color: #007bff; */
 }
 
+.badge-ocad {
+    color: #fff;
+    background-color: black;
+    /* background-image: linear-gradient(to right, #23a6d5, rgb(76, 175, 76)); */
+    /* background-color: #007bff; */
+}
+
 .badge-outline {
     color: #000;
     background-image: white;
@@ -248,3 +255,8 @@ meter::-webkit-meter-even-less-good-value {
             column-count: 3;
         }
 }
+
+
+
+
+
