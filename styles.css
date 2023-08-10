@@ -25,15 +25,26 @@ a.content:active {
   	color: black;
 	text-decoration: none;
 }
-p::selection {
+a::selection {
   background-color: chartreuse;
 }
-a::selection {
+p::selection {
   background-color: chartreuse;
 }
 img::selection {
   background-color: violet;
 }
+#back-to-start:hover {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+}
+/* To change text on hover: */
+      /* #back-to-start:hover span {
+        display: none;
+      }
+      #back-to-start:hover:before {
+        content: "to start"
+      } */
 #content {
   position: absolute;
   top: 50%;
@@ -47,6 +58,25 @@ figcaption {
 	font-weight: normal;
 	color: black;
 	line-height: 150%;
+}
+
+/* ordered lists */
+ol {
+  word-break: break-all;
+  margin: 0;
+  padding: 0;
+}
+ol ol {
+    margin-left: 2em;
+}
+li {
+  list-style-position: inside;
+  padding: 0;
+}
+li::before {
+  content: "";
+  width: 20px;
+  display: inline-block;
 }
 
 
